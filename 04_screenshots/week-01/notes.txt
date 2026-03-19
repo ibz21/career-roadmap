@@ -1,0 +1,7 @@
+Week 1 screenshots go here.
+
+Examples:
+- terminal showing folder creation
+- terminal showing notes file creation
+- terminal showing weekly review file creation
+- terminal showing pwd output
