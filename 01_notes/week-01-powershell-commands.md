@@ -1,26 +1,26 @@
-\# Week 1 - PowerShell Commands
+# Week 1 - PowerShell Commands
 
 
 
-\## What this file is for
+## What this file is for
 
 This file records the basic PowerShell commands I have used so far, what they mean, their syntax, and why they are useful.
 
 
 
-\---
+---
 
 
 
-\## `cd`
+## `cd`
 
-\*\*Meaning:\*\* Change directory.  
+**Meaning:** Change directory.  
 
-\*\*Used for:\*\* Moving into another folder.
+**Used for:** Moving into another folder.
 
 
 
-\*\*Syntax:\*\*
+**Syntax:**
 
 ```powershell
 
@@ -34,7 +34,7 @@ cd ..
 
 
 
-\*\*Examples:\*\*
+**Examples:**
 
 ```powershell
 
@@ -48,25 +48,25 @@ cd ..
 
 
 
-\*\*Why it matters:\*\*  
+**Why it matters:**  
 
 This is one of the main ways to move around the folder structure in the terminal.
 
 
 
-\---
+---
 
 
 
-\## `dir`
+## `dir`
 
-\*\*Meaning:\*\* Directory listing.  
+**Meaning:** Directory listing.  
 
-\*\*Used for:\*\* Showing the files and folders in a location.
+**Used for:** Showing the files and folders in a location.
 
 
 
-\*\*Syntax:\*\*
+**Syntax:**
 
 ```powershell
 
@@ -78,7 +78,7 @@ dir .\\01\_notes
 
 
 
-\*\*Examples:\*\*
+**Examples:**
 
 ```powershell
 
@@ -90,25 +90,25 @@ dir .\\00\_admin
 
 
 
-\*\*Why it matters:\*\*  
+**Why it matters:**  
 
 This lets me inspect what is inside the current folder or another folder.
 
 
 
-\---
+---
 
 
 
-\## `mkdir`
+## `mkdir`
 
-\*\*Meaning:\*\* Make directory.  
+**Meaning:** Make directory.  
 
-\*\*Used for:\*\* Creating a folder.
+**Used for:** Creating a folder.
 
 
 
-\*\*Syntax:\*\*
+**Syntax:**
 
 ```powershell
 
@@ -120,7 +120,7 @@ mkdir .\\parent-folder\\new-folder
 
 
 
-\*\*Examples:\*\*
+**Examples:**
 
 ```powershell
 
@@ -134,25 +134,25 @@ mkdir .\\02\_labs\\powershell
 
 
 
-\*\*Why it matters:\*\*  
+**Why it matters:**  
 
 This is how I create project structure from the terminal.
 
 
 
-\---
+---
 
 
 
-\## `New-Item`
+## `New-Item`
 
-\*\*Meaning:\*\* Create a new item.  
+**Meaning:** Create a new item.  
 
-\*\*Used for:\*\* Creating a file or folder.
+**Used for:** Creating a file or folder.
 
 
 
-\*\*Syntax:\*\*
+**Syntax:**
 
 ```powershell
 
@@ -164,7 +164,7 @@ New-Item .\\folder\\file-name.md -ItemType File
 
 
 
-\*\*Examples:\*\*
+**Examples:**
 
 ```powershell
 
@@ -176,35 +176,25 @@ New-Item .\\01\_notes\\week-01-git-commands.md -ItemType File
 
 
 
-\*\*Why it matters:\*\*  
+**Why it matters:**  
 
 This is how I create files directly from PowerShell.
 
 
 
-\---
+---
 
 
 
-\## `pwd`
+## `pwd`
 
-\*\*Meaning:\*\* Print working directory.  
+**Meaning:** Print working directory.  
 
-\*\*Used for:\*\* Showing my current location in the terminal.
-
-
-
-\*\*Syntax:\*\*
-
-```powershell
-
-pwd
-
-```
+**Used for:** Showing my current location in the terminal.
 
 
 
-\*\*Examples:\*\*
+**Syntax:**
 
 ```powershell
 
@@ -214,25 +204,35 @@ pwd
 
 
 
-\*\*Why it matters:\*\*  
+**Examples:**
+
+```powershell
+
+pwd
+
+```
+
+
+
+**Why it matters:**  
 
 This helps me confirm exactly where I am before creating, moving, or editing files.
 
 
 
-\---
+---
 
 
 
-\## `Copy-Item`
+## `Copy-Item`
 
-\*\*Meaning:\*\* Copy a file or folder.  
+**Meaning:** Copy a file or folder.  
 
-\*\*Used for:\*\* Making a duplicate of something.
+**Used for:** Making a duplicate of something.
 
 
 
-\*\*Syntax:\*\*
+**Syntax:**
 
 ```powershell
 
@@ -242,7 +242,7 @@ Copy-Item source destination
 
 
 
-\*\*Examples:\*\*
+**Examples:**
 
 ```powershell
 
@@ -252,25 +252,25 @@ Copy-Item .\\05\_weekly\_reviews\\week-01-review.md .\\05\_weekly\_reviews\\week
 
 
 
-\*\*Why it matters:\*\*  
+**Why it matters:**  
 
 This is useful for backups, templates, and duplicate files.
 
 
 
-\---
+---
 
 
 
-\## `Move-Item`
+## `Move-Item`
 
-\*\*Meaning:\*\* Move or rename a file or folder.  
+**Meaning:** Move or rename a file or folder.  
 
-\*\*Used for:\*\* Changing where something lives or changing its name.
+**Used for:** Changing where something lives or changing its name.
 
 
 
-\*\*Syntax:\*\*
+**Syntax:**
 
 ```powershell
 
@@ -280,7 +280,7 @@ Move-Item source destination
 
 
 
-\*\*Examples:\*\*
+**Examples:**
 
 ```powershell
 
@@ -290,25 +290,25 @@ Move-Item .\\01\_notes\\temp-file.md .\\01\_notes\\temp-file-renamed.md
 
 
 
-\*\*Why it matters:\*\*  
+**Why it matters:**  
 
 This helps me reorganize files and also acts like a rename command.
 
 
 
-\---
+---
 
 
 
-\## `Remove-Item`
+## `Remove-Item`
 
-\*\*Meaning:\*\* Remove or delete a file or folder.  
+**Meaning:** Remove or delete a file or folder.  
 
-\*\*Used for:\*\* Deleting something I no longer want.
+**Used for:** Deleting something I no longer want.
 
 
 
-\*\*Syntax:\*\*
+**Syntax:**
 
 ```powershell
 
@@ -318,7 +318,7 @@ Remove-Item path
 
 
 
-\*\*Examples:\*\*
+**Examples:**
 
 ```powershell
 
@@ -328,27 +328,27 @@ Remove-Item .\\01\_notes\\temp-file-renamed.md
 
 
 
-\*\*Why it matters:\*\*  
+**Why it matters:**  
 
 This is how I remove files directly from the terminal.
 
 
 
-\---
+---
 
 
 
-\## Important path ideas
+## Important path ideas
 
 
 
-\### `.`
+### `.`
 
-\*\*Meaning:\*\* The current location.
+**Meaning:** The current location.
 
 
 
-\*\*Examples:\*\*
+**Examples:**
 
 ```powershell
 
@@ -360,23 +360,23 @@ git add .
 
 
 
-\*\*Why it matters:\*\*  
+**Why it matters:**  
 
 This tells the command to work from where I am now.
 
 
 
-\---
+---
 
 
 
-\### `..`
+### `..`
 
-\*\*Meaning:\*\* The folder above the current one.
+**Meaning:** The folder above the current one.
 
 
 
-\*\*Examples:\*\*
+**Examples:**
 
 ```powershell
 
@@ -386,23 +386,23 @@ cd ..
 
 
 
-\*\*Why it matters:\*\*  
+**Why it matters:**  
 
 This is how I move up one level in the folder structure.
 
 
 
-\---
+---
 
 
 
-\### `.\\folder\\file-name`
+### `.\\folder\\file-name`
 
-\*\*Meaning:\*\* A path starting from the current location.
+**Meaning:** A path starting from the current location.
 
 
 
-\*\*Examples:\*\*
+**Examples:**
 
 ```powershell
 
@@ -416,37 +416,37 @@ New-Item .\\01\_notes\\week-01-powershell-commands.md -ItemType File
 
 
 
-\*\*Why it matters:\*\*  
+**Why it matters:**  
 
 This lets me target another file or folder directly without moving into it first.
 
 
 
-\---
+---
 
 
 
-\## Important ideas learned
+## Important ideas learned
 
 
 
-\- A directory means a folder
+- A directory means a folder
 
-\- The terminal always has a current location
+- The terminal always has a current location
 
-\- I can move between folders using `cd`
+- I can move between folders using `cd`
 
-\- I can inspect folders using `dir`
+- I can inspect folders using `dir`
 
-\- I can create folders using `mkdir`
+- I can create folders using `mkdir`
 
-\- I can create files using `New-Item`
+- I can create files using `New-Item`
 
-\- I can copy files using `Copy-Item`
+- I can copy files using `Copy-Item`
 
-\- I can move or rename files using `Move-Item`
+- I can move or rename files using `Move-Item`
 
-\- I can delete files using `Remove-Item`
+- I can delete files using `Remove-Item`
 
-\- I can target another folder directly by using its path
+- I can target another folder directly by using its path
 

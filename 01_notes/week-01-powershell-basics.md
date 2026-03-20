@@ -1,36 +1,36 @@
-\# Week 1 - PowerShell Basics
+# Week 1 - PowerShell Basics
 
 
 
-\## What is PowerShell?
+## What is PowerShell?
 
 PowerShell is a command-line shell and scripting environment from Microsoft.
 
 
 
-\## Why is PowerShell used?
+## Why is PowerShell used?
 
 PowerShell is used to move around the system, create files and folders, inspect directories, and automate tasks.
 
 
 
-\## What I have done so far
+## What I have done so far
 
-\- moved between folders
+- moved between folders
 
-\- checked my current location
+- checked my current location
 
-\- created folders
+- created folders
 
-\- created files
+- created files
 
-\- used paths directly
+- used paths directly
 
-\- built a simple project structure
+- built a simple project structure
 
 
 
-\## Why this matters
+## Why this matters
 
 PowerShell is helping me understand how terminal work functions.
 

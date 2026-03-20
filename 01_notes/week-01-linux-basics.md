@@ -1,82 +1,82 @@
-**# Week 1 - Linux Basics**
+# Week 1 - Linux Basics**
 
 
 
-**## What is Linux?**
+## What is Linux?**
 
-**Linux is an operating system commonly used for servers, cloud systems, backend applications, containers, and developer environments.**
-
-
-
-**## Why Linux matters**
-
-**Linux matters because many engineering, DevOps, backend, and cloud environments run on Linux-based systems.**
+Linux is an operating system commonly used for servers, cloud systems, backend applications, containers, and developer environments.**
 
 
 
-**## Where Linux is used**
+## Why Linux matters**
 
-**- servers**
-
-**- cloud infrastructure**
-
-**- containers**
-
-**- development environments**
-
-**- automation and scripting**
-
-**- backend systems**
+Linux matters because many engineering, DevOps, backend, and cloud environments run on Linux-based systems.**
 
 
 
-**## Why I need to learn it**
+## Where Linux is used**
 
-**I need to learn Linux because it is a core skill for:**
+- servers**
 
-**- Technical Solutions Engineer roles**
+- cloud infrastructure**
 
-**- DevOps roles**
+- containers**
 
-**- backend and software-related roles**
+- development environments**
 
+- automation and scripting**
 
-
-**## What I have learned so far**
-
-**So far I have mainly used PowerShell to understand terminal basics such as:**
-
-**- folders and files**
-
-**- paths**
-
-**- current location**
-
-**- creating files and folders**
-
-**- moving around a folder structure**
+- backend systems**
 
 
 
-**## What I still need to learn next**
+## Why I need to learn it**
 
-**- Linux terminal basics directly**
+I need to learn Linux because it is a core skill for:**
 
-**- common Linux commands**
+- Technical Solutions Engineer roles**
 
-**- file permissions**
+- DevOps roles**
 
-**- users and groups**
-
-**- processes and services**
-
-**- logs**
-
-**- package management**
+- backend and software-related roles**
 
 
 
-**## Key idea**
+## What I have learned so far**
 
-**PowerShell is helping me learn command-line thinking, but Linux is the environment I need to become comfortable with for real engineering and cloud work.**
+So far I have mainly used PowerShell to understand terminal basics such as:**
+
+- folders and files**
+
+- paths**
+
+- current location**
+
+- creating files and folders**
+
+- moving around a folder structure**
+
+
+
+## What I still need to learn next**
+
+- Linux terminal basics directly**
+
+- common Linux commands**
+
+- file permissions**
+
+- users and groups**
+
+- processes and services**
+
+- logs**
+
+- package management**
+
+
+
+## Key idea**
+
+PowerShell is helping me learn command-line thinking, but Linux is the environment I need to become comfortable with for real engineering and cloud work.**
 

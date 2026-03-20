@@ -1,4 +1,4 @@
-\# Week 1 - Commands Index
+# Week 1 - Commands Index
 
 
 
@@ -6,15 +6,15 @@ This file is now a simple index for the command notes created in Week 1.
 
 
 
-\## Main command notes
+## Main command notes
 
-\- `week-01-powershell-commands.md`
+- `week-01-powershell-commands.md`
 
-\- `week-01-git-commands.md`
+- `week-01-git-commands.md`
 
 
 
-\## Why this file exists
+## Why this file exists
 
 At first, commands were written in one mixed note.
 
@@ -22,41 +22,41 @@ They have now been split into separate files to make revision clearer.
 
 
 
-\## Notes split by type
+## Notes split by type
 
 
 
-\### PowerShell commands
-
-Covers:
-
-\- folder navigation
-
-\- directory listing
-
-\- file and folder creation
-
-\- copying, moving, and deleting items
-
-\- path basics
-
-
-
-\### Git commands
+### PowerShell commands
 
 Covers:
 
-\- repository setup
+- folder navigation
 
-\- status checks
+- directory listing
 
-\- staging
+- file and folder creation
 
-\- committing
+- copying, moving, and deleting items
 
-\- remotes
+- path basics
 
-\- branches
 
-\- pushing to GitHub by using its path
+
+### Git commands
+
+Covers:
+
+- repository setup
+
+- status checks
+
+- staging
+
+- committing
+
+- remotes
+
+- branches
+
+- pushing to GitHub by using its path
 

@@ -1,36 +1,26 @@
-\# Week 1 - Git Commands
+# Week 1 - Git Commands
 
 
 
-\## What this file is for
+## What this file is for
 
 This file records the basic Git commands I have used so far, what they mean, their syntax, and why they are useful.
 
 
 
-\---
+---
 
 
 
-\## `git --version`
+## `git --version`
 
-\*\*Meaning:\*\* Show the installed Git version.  
+**Meaning:** Show the installed Git version.  
 
-\*\*Used for:\*\* Checking that Git is installed and available.
-
-
-
-\*\*Syntax:\*\*
-
-```powershell
-
-git --version
-
-```
+**Used for:** Checking that Git is installed and available.
 
 
 
-\*\*Examples:\*\*
+**Syntax:**
 
 ```powershell
 
@@ -40,35 +30,35 @@ git --version
 
 
 
-\*\*Why it matters:\*\*  
+**Examples:**
+
+```powershell
+
+git --version
+
+```
+
+
+
+**Why it matters:**  
 
 This confirms Git is installed before trying to use it.
 
 
 
-\---
+---
 
 
 
-\## `git status`
+## `git status`
 
-\*\*Meaning:\*\* Show the current state of the repository.  
+**Meaning:** Show the current state of the repository.  
 
-\*\*Used for:\*\* Checking what files are untracked, staged, or modified.
-
-
-
-\*\*Syntax:\*\*
-
-```powershell
-
-git status
-
-```
+**Used for:** Checking what files are untracked, staged, or modified.
 
 
 
-\*\*Examples:\*\*
+**Syntax:**
 
 ```powershell
 
@@ -78,35 +68,35 @@ git status
 
 
 
-\*\*Why it matters:\*\*  
+**Examples:**
+
+```powershell
+
+git status
+
+```
+
+
+
+**Why it matters:**  
 
 This is one of the most important Git commands because it shows what Git thinks is happening in the project.
 
 
 
-\---
+---
 
 
 
-\## `git init`
+## `git init`
 
-\*\*Meaning:\*\* Initialize a Git repository.  
+**Meaning:** Initialize a Git repository.  
 
-\*\*Used for:\*\* Turning a normal folder into a Git-tracked project.
-
-
-
-\*\*Syntax:\*\*
-
-```powershell
-
-git init
-
-```
+**Used for:** Turning a normal folder into a Git-tracked project.
 
 
 
-\*\*Examples:\*\*
+**Syntax:**
 
 ```powershell
 
@@ -116,35 +106,35 @@ git init
 
 
 
-\*\*Why it matters:\*\*  
+**Examples:**
+
+```powershell
+
+git init
+
+```
+
+
+
+**Why it matters:**  
 
 This creates the hidden `.git` folder and starts version control in the project.
 
 
 
-\---
+---
 
 
 
-\## `git add .`
+## `git add .`
 
-\*\*Meaning:\*\* Stage all changes in the current folder.  
+**Meaning:** Stage all changes in the current folder.  
 
-\*\*Used for:\*\* Preparing changes for the next commit.
-
-
-
-\*\*Syntax:\*\*
-
-```powershell
-
-git add .
-
-```
+**Used for:** Preparing changes for the next commit.
 
 
 
-\*\*Examples:\*\*
+**Syntax:**
 
 ```powershell
 
@@ -154,25 +144,35 @@ git add .
 
 
 
-\*\*Why it matters:\*\*  
+**Examples:**
+
+```powershell
+
+git add .
+
+```
+
+
+
+**Why it matters:**  
 
 This moves changes into Git’s staging area so they can be included in the next commit.
 
 
 
-\---
+---
 
 
 
-\## `git commit -m "message"`
+## `git commit -m "message"`
 
-\*\*Meaning:\*\* Save a checkpoint in Git history with a message.  
+**Meaning:** Save a checkpoint in Git history with a message.  
 
-\*\*Used for:\*\* Recording a version of the project.
+**Used for:** Recording a version of the project.
 
 
 
-\*\*Syntax:\*\*
+**Syntax:**
 
 ```powershell
 
@@ -182,7 +182,7 @@ git commit -m "Your commit message"
 
 
 
-\*\*Examples:\*\*
+**Examples:**
 
 ```powershell
 
@@ -196,25 +196,25 @@ git commit -m "Add Week 1 PowerShell commands notes"
 
 
 
-\*\*Why it matters:\*\*  
+**Why it matters:**  
 
 This creates a named save point in the Git history.
 
 
 
-\---
+---
 
 
 
-\## `git remote add origin <repo-url>`
+## `git remote add origin <repo-url>`
 
-\*\*Meaning:\*\* Connect the local repository to a remote GitHub repository.  
+**Meaning:** Connect the local repository to a remote GitHub repository.  
 
-\*\*Used for:\*\* Linking the local project to GitHub.
+**Used for:** Linking the local project to GitHub.
 
 
 
-\*\*Syntax:\*\*
+**Syntax:**
 
 ```powershell
 
@@ -224,7 +224,7 @@ git remote add origin https://github.com/username/repo-name.git
 
 
 
-\*\*Examples:\*\*
+**Examples:**
 
 ```powershell
 
@@ -234,35 +234,25 @@ git remote add origin https://github.com/ibz21/career-roadmap.git
 
 
 
-\*\*Why it matters:\*\*  
+**Why it matters:**  
 
 This creates the link between the local repo and the online GitHub repo.
 
 
 
-\---
+---
 
 
 
-\## `git remote -v`
+## `git remote -v`
 
-\*\*Meaning:\*\* Show the configured remote connections.  
+**Meaning:** Show the configured remote connections.  
 
-\*\*Used for:\*\* Checking which remote repository is connected.
-
-
-
-\*\*Syntax:\*\*
-
-```powershell
-
-git remote -v
-
-```
+**Used for:** Checking which remote repository is connected.
 
 
 
-\*\*Examples:\*\*
+**Syntax:**
 
 ```powershell
 
@@ -272,35 +262,35 @@ git remote -v
 
 
 
-\*\*Why it matters:\*\*  
+**Examples:**
+
+```powershell
+
+git remote -v
+
+```
+
+
+
+**Why it matters:**  
 
 This lets me confirm the local repo is linked to the correct GitHub repo.
 
 
 
-\---
+---
 
 
 
-\## `git branch`
+## `git branch`
 
-\*\*Meaning:\*\* Show the current branch.  
+**Meaning:** Show the current branch.  
 
-\*\*Used for:\*\* Checking which branch I am working on.
-
-
-
-\*\*Syntax:\*\*
-
-```powershell
-
-git branch
-
-```
+**Used for:** Checking which branch I am working on.
 
 
 
-\*\*Examples:\*\*
+**Syntax:**
 
 ```powershell
 
@@ -310,35 +300,35 @@ git branch
 
 
 
-\*\*Why it matters:\*\*  
+**Examples:**
+
+```powershell
+
+git branch
+
+```
+
+
+
+**Why it matters:**  
 
 This helps me confirm the current working branch before pushing or making further changes.
 
 
 
-\---
+---
 
 
 
-\## `git push -u origin master`
+## `git push -u origin master`
 
-\*\*Meaning:\*\* Push the current branch to GitHub and remember the upstream connection.  
+**Meaning:** Push the current branch to GitHub and remember the upstream connection.  
 
-\*\*Used for:\*\* Sending the first local commit history to GitHub.
-
-
-
-\*\*Syntax:\*\*
-
-```powershell
-
-git push -u origin master
-
-```
+**Used for:** Sending the first local commit history to GitHub.
 
 
 
-\*\*Examples:\*\*
+**Syntax:**
 
 ```powershell
 
@@ -348,35 +338,35 @@ git push -u origin master
 
 
 
-\*\*Why it matters:\*\*  
+**Examples:**
+
+```powershell
+
+git push -u origin master
+
+```
+
+
+
+**Why it matters:**  
 
 This uploads the local branch to GitHub and sets the default remote branch.
 
 
 
-\---
+---
 
 
 
-\## `git push`
+## `git push`
 
-\*\*Meaning:\*\* Push local commits to the linked remote branch.  
+**Meaning:** Push local commits to the linked remote branch.  
 
-\*\*Used for:\*\* Uploading later commits to GitHub.
-
-
-
-\*\*Syntax:\*\*
-
-```powershell
-
-git push
-
-```
+**Used for:** Uploading later commits to GitHub.
 
 
 
-\*\*Examples:\*\*
+**Syntax:**
 
 ```powershell
 
@@ -386,27 +376,37 @@ git push
 
 
 
-\*\*Why it matters:\*\*  
+**Examples:**
+
+```powershell
+
+git push
+
+```
+
+
+
+**Why it matters:**  
 
 After the upstream is set, this becomes the normal way to send new commits to GitHub.
 
 
 
-\---
+---
 
 
 
-\## Important Git ideas
+## Important Git ideas
 
 
 
-\### Working directory
+### Working directory
 
 The current files on my computer that I am editing.
 
 
 
-\### Staging area
+### Staging area
 
 Git’s preparation area.  
 
@@ -414,61 +414,61 @@ When I use `git add`, I am telling Git which changes should go into the next com
 
 
 
-\### Commit
+### Commit
 
 A saved checkpoint in Git history.
 
 
 
-\### Remote
+### Remote
 
 A connected online copy of the repository, such as GitHub.
 
 
 
-\### Branch
+### Branch
 
 A line of work in the repository.
 
 
 
-\---
+---
 
 
 
-\## Simple Git flow
+## Simple Git flow
 
 
 
-\- edit files locally
+- edit files locally
 
-\- stage changes with `git add`
+- stage changes with `git add`
 
-\- save a checkpoint with `git commit`
+- save a checkpoint with `git commit`
 
-\- upload to GitHub with `git push`
-
-
-
-\---
+- upload to GitHub with `git push`
 
 
 
-\## Important ideas learned
+---
 
 
 
-\- Git and GitHub are related but not the same thing
+## Important ideas learned
 
-\- Git works locally on my computer
 
-\- GitHub is the remote online copy
 
-\- `git add` stages changes
+- Git and GitHub are related but not the same thing
 
-\- `git commit` saves a checkpoint locally
+- Git works locally on my computer
 
-\- `git push` uploads commits to GitHub
+- GitHub is the remote online copy
 
-\- `git status` is one of the most useful commands because it shows the current state of the repo
+- `git add` stages changes
+
+- `git commit` saves a checkpoint locally
+
+- `git push` uploads commits to GitHub
+
+- `git status` is one of the most useful commands because it shows the current state of the repo
 
