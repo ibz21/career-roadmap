@@ -1,66 +1,62 @@
-\# Week 1 Commands
+\# Week 1 - Commands Index
 
 
 
-\## Commands learned so far
+This file is now a simple index for the command notes created in Week 1.
 
 
 
-\### cd
+\## Main command notes
 
-Change directory.
+\- `week-01-powershell-commands.md`
 
-Used to move into another folder.
-
-
-
-\### dir
-
-Directory listing.
-
-Used to show the files and folders in a location.
+\- `week-01-git-commands.md`
 
 
 
-\### mkdir
+\## Why this file exists
 
-Make directory.
+At first, commands were written in one mixed note.
 
-Used to create a folder.
-
-
-
-\### New-Item
-
-Create a new item.
-
-Used here to create files.
+They have now been split into separate files to make revision clearer.
 
 
 
-\### pwd
-
-Print working directory.
-
-Used to show my current location in the terminal.
+\## Notes split by type
 
 
 
-\## Important ideas learned
+\### PowerShell commands
+
+Covers:
+
+\- folder navigation
+
+\- directory listing
+
+\- file and folder creation
+
+\- copying, moving, and deleting items
+
+\- path basics
 
 
 
-\- A directory means a folder
+\### Git commands
 
-\- The terminal always has a current location
+Covers:
 
-\- I can move between folders using cd
+\- repository setup
 
-\- I can check what exists using dir
+\- status checks
 
-\- I can create folders with mkdir
+\- staging
 
-\- I can create files with New-Item
+\- committing
 
-\- I can target another folder directly by using its path
+\- remotes
+
+\- branches
+
+\- pushing to GitHub by using its path
 
