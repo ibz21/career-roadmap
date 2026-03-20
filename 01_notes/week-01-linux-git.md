@@ -2,47 +2,77 @@
 
 
 
-\## What is Linux?
+\## What this file is for
+
+This file is the main Week 1 concepts note for Linux, terminal basics, and Git foundations.
+
+
+
+\## What I have covered so far
+
+\- basic terminal navigation in PowerShell
+
+\- understanding folders, files, and paths
+
+\- creating files and folders from the terminal
+
+\- basic Git setup
+
+\- staging, committing, and pushing to GitHub
+
+
+
+\## What Linux is
 
 Linux is an operating system commonly used for servers, cloud systems, backend applications, and containers.
 
 
 
-\## Why is Linux used?
+\## Why Linux matters
 
-Linux is widely used because it is stable, flexible, and common in engineering, cloud, and DevOps environments.
-
-
-
-\## What is Git?
-
-Git is a version control system. It tracks changes to files over time.
+Linux matters because many engineering, cloud, backend, and DevOps environments run on Linux-based systems.
 
 
 
-\## Why is Git used?
+\## What Git is
 
-Git is used so changes can be saved, reviewed, undone, and organized safely.
-
-
-
-\## Commands learned
-
-\- cd = change directory
-
-\- dir = show files and folders in the current directory
-
-\- mkdir = make a new folder
-
-\- New-Item = create a new file or item
+Git is a version control system used to track changes to files over time.
 
 
 
-\## What I did today
+\## Why Git matters
 
-\- Created the career-roadmap folder structure
+Git matters because it helps save project history, organize work, and connect local work to GitHub.
 
-\- Created my first notes file in PowerShell
 
-\- Learned what cd, dir, mkdir, and New-Item mean
+
+\## Key ideas from Week 1
+
+\- a directory means a folder
+
+\- the terminal always has a current location
+
+\- paths describe where files and folders are
+
+\- Git tracks project changes locally
+
+\- GitHub is the remote online copy
+
+\- staging is Git’s preparation area before a commit
+
+\- a commit is a saved checkpoint
+
+\- a push uploads local commits to GitHub
+
+
+
+\## What still needs to be learned next
+
+\- Linux terminal basics directly
+
+\- Linux file system structure
+
+\- permissions and users
+
+\- more Git commands and branch workflow
 
